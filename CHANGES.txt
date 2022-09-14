@@ -1,0 +1,25 @@
+------------------------------------------------------------------------
+r34 | Lombra | 2020-10-15 18:08:03 +0000 (Thu, 15 Oct 2020) | 2 lines
+Changed paths:
+   M /trunk/Bindings.lua
+   M /trunk/Core.lua
+   M /trunk/SpellBinding.toc
+
+- Use BackdropTemplate for stuff.
+- Update TOC interface version.
+------------------------------------------------------------------------
+r33 | Lombra | 2018-09-03 12:52:25 +0000 (Mon, 03 Sep 2018) | 2 lines
+Changed paths:
+   M /trunk/Bindings.lua
+   M /trunk/SpellBinding.toc
+
+- Don't wrap too long binding names in bindings list.
+- ToC bump.
+------------------------------------------------------------------------
+r32 | Lombra | 2018-04-18 23:50:09 +0000 (Wed, 18 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/pkgmeta.yaml
+
+- Fix Github externals URL.
+------------------------------------------------------------------------
+
