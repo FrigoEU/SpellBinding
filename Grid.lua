@@ -29,12 +29,12 @@ local function createSlider(maxValue)
 	return slider
 end
 
-local rowsSlider = createSlider(8)
+local rowsSlider = createSlider(12)
 rowsSlider:SetPoint("TOPLEFT", 40, -40)
 rowsSlider.setting = "gridRows"
 rowsSlider.label:SetText("Rows: ")
 
-local columnsSlider = createSlider(7)
+local columnsSlider = createSlider(12)
 columnsSlider:SetPoint("TOPRIGHT", -40, -40)
 columnsSlider.setting = "gridColumns"
 columnsSlider.label:SetText("Columns: ")

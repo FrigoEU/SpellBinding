@@ -11,6 +11,7 @@ frame:EnableMouse(true)
 frame:SetTitleText("SpellBinding")
 frame:HidePortrait(frame)
 frame:HideButtonBar(frame)
+frame:SetSize(600, 600);
 frame:SetScript("OnShow", function(self)
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_OPEN)
 	if not self:GetSelectedTab() then
